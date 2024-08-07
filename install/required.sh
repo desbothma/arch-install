@@ -2,6 +2,8 @@
 # Check for required packages to run the installation
 # ------------------------------------------------------
 
+source common/functions.sh
+
 # Synchronize packages
 sudo pacman -Sy
 echo
