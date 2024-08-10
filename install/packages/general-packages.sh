@@ -1,4 +1,15 @@
 packagesPacman=(
+    "ncurses"
+    "libssh"
+    "unixodbc"
+    "libxslt"
+    "keychain"
+    "mesa"
+    "wxwidgets-gtk3"
+    "inotify-tools"
+    "libpng"
+    "fop"
+    "emacs-nativecomp"
     "pacman-contrib"
     "vim"
     "bluez"
@@ -58,4 +69,5 @@ packagesYay=(
     "bibata-cursor-theme"
     "trizen"
     "pacseek"
+    "aws-cli-v2"
 );
