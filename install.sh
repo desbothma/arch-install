@@ -29,3 +29,13 @@ source install/hyprland.sh
 # Check executables of important apps
 # -----------------------------------------------------
 source install/diagnosis.sh
+
+# -----------------------------------------------------
+# Install wallpapers
+# -----------------------------------------------------
+source install/wallpaper.sh
+
+# -----------------------------------------------------
+# Initialize pywal color scheme
+# -----------------------------------------------------
+source install/init-pywal.sh
