@@ -22,7 +22,8 @@ packagesPacman=(
     "alacritty"
     "dunst"
     "starship"
-    "mpv"
+    "yazi"
+    "bat"
     "noto-fonts"
     "otf-font-awesome"
     "ttf-fira-sans"
@@ -31,7 +32,6 @@ packagesPacman=(
     "adobe-source-code-pro-fonts"
     "ttf-jetbrains-mono-nerd"
     "figlet"
-    "vlc"
     "eza"
     "python-pip"
     "python-psutil"
@@ -40,7 +40,6 @@ packagesPacman=(
     "python-pywal"
     "python-gobject"
     "tumbler"
-    "breeze-icons"
     "polkit-gnome"
     "brightnessctl"
     "gum"
@@ -56,6 +55,8 @@ packagesPacman=(
     "zip"
     "fuse2"
     "gtk4"
+    "qt5ct"
+    "qt6ct"
     "libadwaita"
     "xdg-desktop-portal"
     "qalculate-gtk"
@@ -65,11 +66,11 @@ packagesPacman=(
     "rofi-wayland"
     "fastfetch"
     "blueman"
-    "less"
+    "less",
+    "rclone"
 );
 
 packagesYay=(
-    "bibata-cursor-theme"
     "trizen"
     "pacseek"
     "aws-cli-v2"

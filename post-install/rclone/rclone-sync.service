@@ -1,0 +1,5 @@
+[Unit]
+Description=Run rclone sync
+
+[Service]
+ExecStart=/usr/bin/rclone sync ~/org-roam aws:des.org.roam --log-file /var/log/rclone/sync.log --log-level INFO

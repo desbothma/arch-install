@@ -16,6 +16,21 @@ source install/yay.sh
 #source install/remove.sh
 
 # -----------------------------------------------------
+# Install System Packages
+# -----------------------------------------------------
+source install/system-packages.sh
+
+# -----------------------------------------------------
+# Install Display Manager
+# -----------------------------------------------------
+source install/display-manager.sh
+
+# -----------------------------------------------------
+# Install Window Manager
+# -----------------------------------------------------
+source install/display-manager.sh
+
+# -----------------------------------------------------
 # Install general packages
 # -----------------------------------------------------
 source install/general.sh
@@ -24,6 +39,16 @@ source install/general.sh
 # Install hyprland packages
 # -----------------------------------------------------
 source install/hyprland.sh
+
+# -----------------------------------------------------
+# Install Apps
+# -----------------------------------------------------
+source install/apps.sh
+
+# -----------------------------------------------------
+# Install Theming
+# -----------------------------------------------------
+source install/themes.sh
 
 # -----------------------------------------------------
 # Check executables of important apps

@@ -16,7 +16,7 @@ packagesYay=(
     "hyprshade"
     "waypaper"
     "mission-center"
-    "grimblast"
+    "grimblast-git"
     "bun-bin"
     "aylurs-gtk-shell"
 );

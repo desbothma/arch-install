@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Some colors
+GREEN='\033[0;32m'
+NONE='\033[0m'
+
 # Check if package is installed
 _isInstalledPacman() {
     package="$1";
